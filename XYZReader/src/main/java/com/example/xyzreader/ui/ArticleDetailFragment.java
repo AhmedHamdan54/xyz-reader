@@ -128,7 +128,7 @@ public class ArticleDetailFragment extends Fragment implements
         ImageView mPhotoView = mRootView.findViewById(R.id.poster);
         final CardView cvDetailLand = mRootView.findViewById(R.id.cvDetailLand);
 
-        bodyView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "rosario-regular.ttf"));
+        bodyView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "rosario_regular.ttf"));
 
 
         if (mCursor != null) {
