@@ -92,9 +92,9 @@ public class ArticleDetailActivity extends AppCompatActivity
 
         FloatingActionButton share_fab = findViewById(R.id.share_fab);
 
-        AnimatorSet animatorSet = (AnimatorSet) AnimatorInflater.loadAnimator(this, R.animator.fab_state_list_anim);
+       /* AnimatorSet animatorSet = (AnimatorSet) AnimatorInflater.loadAnimator(this, R.animator.fab_state_list_anim);
         animatorSet.setTarget(share_fab);
-        animatorSet.start();
+        animatorSet.start();*/
 
         share_fab.setOnClickListener(new View.OnClickListener() {
             @Override
